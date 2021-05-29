@@ -1,0 +1,19 @@
+{
+    "window.zoomLevel": 1,
+    "editor.fontSize": 11,
+    "terminal.integrated.fontSize": 11,
+    
+    "macros": {
+        "execCurLn": [
+            "expandLineSelection",
+            "workbench.action.terminal.runSelectedText",
+            "cancelSelection",
+            {
+                "key": "ctrl+enter",
+                "command": "workbench.action.terminal.runSelectedText",
+                "when": "editorTextFocus && editorHasSelection"
+              }
+        ]
+    }
+    
+}
