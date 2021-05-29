@@ -1,13 +1,4 @@
-# eseguire un comando selezionato
-# CTRL+ SHIFT+ P cerca Terminal: Run Selected Text In Active Terminal. 
-# apri la configurazione di Run Selected Text In Active Terminal e imposta il keyboards shortcust
 
-
-# trl + Shift + D -> Duplicate Before Selection
-# Ctrl + Alt + Shift + D -> Duplicate After Selection
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
-
----
 
 # svelte app
 
