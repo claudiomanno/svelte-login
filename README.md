@@ -109,11 +109,3 @@ Then, from within your project folder:
 npm run build
 surge public my-project.surge.sh
 ```
-
-
-# change
-# "scripts": {
-#    "build": "rollup -c",
-#    "dev": "rollup -c -w",
-#    "start": "sirv public --no-clear"
-#  },
