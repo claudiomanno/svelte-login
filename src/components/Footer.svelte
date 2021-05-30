@@ -3,7 +3,7 @@
    import { Icon } from 'sveltestrap';
    const icon = 'book';
 </script>
-
+ 
 <footer class="footer footerp">
  
     <div class="container"> </div>
@@ -16,7 +16,7 @@
 .footer {
     position: absolute;
     bottom: 0;
-    width: 98.5%;
+    width: 99.4%;
     height: 60px; /* Set the fixed height of the footer here */
     line-height: 60px; /* Vertically center the text there  //#f5f5f5;*/
     background-color: black;

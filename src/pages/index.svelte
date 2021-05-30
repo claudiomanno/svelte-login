@@ -2,6 +2,8 @@
     import { Carousel, CarouselItem } from 'sveltestrap';
 
     let img = 'images/shopmore.jpg';
+    
+  
 </script>
   
   <!-- svelte-ignore missing-declaration -->

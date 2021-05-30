@@ -33,7 +33,7 @@
         // console.log(data);
         childstatusbar.toggle(false, "Elaborazione in corso", true);// aggiorna la statusbar
         childremote.callRemote(data, setResult, setErr);// call rest
-
+ 
        function setResult(res){
             mes=res.ragsoc.ragsoc;
             if(res.id === "OK"){

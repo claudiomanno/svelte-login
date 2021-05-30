@@ -5,7 +5,7 @@
     let mesremo  = '';
     export let name = "alert-primary";
     export const toggle = (tipoclasse, mes, hideshow) =>{
-        
+         
         mesremo = mes;
         isActive=hideshow;
 

@@ -4,7 +4,7 @@ let img = 'images/undraw_Landing_page_re_6xev.svg';
 </script>
 
 <style>
-.box {
+.box { 
   display: flex;
   align-items: center;
   justify-content: center;

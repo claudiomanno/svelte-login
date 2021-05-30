@@ -5,8 +5,12 @@ import { Styles } from 'sveltestrap';
 //import * as icons from "svelte-bootstrap-icons"; 
 
 
-const app = new App({
-	target: document.body,
-});
 
+const app = new App({
+	
+	target: document.body, 
+
+	
+});
+ 
 export default app;

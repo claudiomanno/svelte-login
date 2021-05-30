@@ -1,3 +1,40 @@
+
+<script context="module">
+    export const callRemoteMenu =(data, cb, cbe)=>{
+
+console.log("remoteMenu : ", data, );
+    let url;// = 'https://cmannocg-qahd7fgfeti-apigcp.nimbella.io/api/backend/login';
+    if(Environment.production){
+        url = Environment.urlMenup;
+    }else{
+        url = Environment.urlMenul;
+    }
+
+    // const nome=data.nome;
+    // const password=data.password;
+
+    (async () => {
+        try{
+            const rawResponse = await fetch(url, {
+                method: 'GET',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                // body:JSON.stringify({nome:nome, password:password})
+                });
+                const content = await rawResponse.json();
+
+                    console.log(content);
+                cb(content);
+        }catch(err){
+            
+            cbe(err.stack.split("at ")[1]);
+        }
+    })();
+}
+</script>
+
 <script>
    import Environment from '../enviroments/enviroments.ts'; 
 
@@ -10,7 +47,7 @@
          }else{
              url = Environment.urlLoginl;
          }
-
+ 
         const nome=data.nome;
         const password=data.password;
 
@@ -37,6 +74,8 @@
 
 
 }
+
+
 
 //export default callRemote;
 </script>
