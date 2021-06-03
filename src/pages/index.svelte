@@ -1,6 +1,6 @@
 <script lang="ts">
     import { Carousel, CarouselItem } from 'sveltestrap';
-
+ 
     let img = 'images/shopmore.jpg';
     
   
